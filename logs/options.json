@@ -1,0 +1,11 @@
+{
+    "design": ["design.json"],
+    "map": [
+        "../gen-sgen/templates/map.json",
+        "../../.nvm/versions/node/v10.9.0/lib/node_modules/@kurlytail/gen-log/templates/map.json"
+    ],
+    "extension": [],
+    "generator": ["sgen", "log"],
+    "d": ["design.json"],
+    "g": ["sgen", "log"]
+}
