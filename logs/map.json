@@ -58,6 +58,16 @@
     "renovate.json": {
         "template": "../../.nvm/versions/node/v10.9.0/lib/node_modules/@kurlytail/gen-sgen/templates/renovate.json._"
     },
+    ".mergify.yml": {
+        "template": "../../.nvm/versions/node/v10.9.0/lib/node_modules/@kurlytail/gen-sgen/templates/.mergify.yml._"
+    },
+    ".npmrc": {
+        "template": "../../.nvm/versions/node/v10.9.0/lib/node_modules/@kurlytail/gen-sgen/templates/.npmrc._"
+    },
+    "azure-pipelines.yml": {
+        "template":
+            "../../.nvm/versions/node/v10.9.0/lib/node_modules/@kurlytail/gen-sgen/templates/azure-pipelines.yml._"
+    },
     "logs/map.json": {
         "template": "../../.nvm/versions/node/v10.9.0/lib/node_modules/@kurlytail/gen-log/templates/logs/map.json._"
     },
