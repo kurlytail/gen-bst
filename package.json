@@ -1,7 +1,7 @@
 {
     "name": "@kurlytail/gen-bst",
     "description": "BST project generator",
-    "version": "0.0.9",
+    "version": "0.0.10",
     "main": "dist/bst.min.js",
     "devDependencies": {
         "@babel/cli": "7.5.5",
