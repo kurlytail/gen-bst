@@ -11,8 +11,6 @@
         "@babel/preset-env": "^7.4.2",
         "@babel/preset-flow": "^7.0.0",
         "@babel/register": "^7.4.0",
-        "@kurlytail/gen-log": "^1.1.5",
-        "@kurlytail/gen-sgen": "^1.2.3",
         "babel-core": "^7.0.0-bridge.0",
         "babel-eslint": "^10.0.1",
         "babel-jest": "^24.5.0",
@@ -43,11 +41,23 @@
     "license": "UNLICENSED",
     "jest": {
         "testResultsProcessor": "./node_modules/jest-junit-reporter",
-        "moduleDirectories": ["node_modules", "./src/js"],
+        "moduleDirectories": [
+            "node_modules",
+            "./src/js"
+        ],
         "collectCoverage": true,
-        "coverageReporters": ["text", "html"],
-        "collectCoverageFrom": ["src/js/**/*.js", "!**/node_modules/**"],
-        "testPathIgnorePatterns": ["testoutput", ".generated"]
+        "coverageReporters": [
+            "text",
+            "html"
+        ],
+        "collectCoverageFrom": [
+            "src/js/**/*.js",
+            "!**/node_modules/**"
+        ],
+        "testPathIgnorePatterns": [
+            "testoutput",
+            ".generated"
+        ]
     },
     "scripts": {
         "docs": "jsdoc -c jsdoc.json && npx opn-cli ./docs/index.html",
@@ -58,8 +68,5 @@
         "test:watch": "jest --watch tests",
         "test:ci": "jest --ci tests",
         "clean": "rimraf ./docs ./dist ./coverage test-report.xml"
-    },
-    "dependencies": {
-        "@kurlytail/gen-lib": "^1.2.8"
     }
 }
