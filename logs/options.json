@@ -6,6 +6,7 @@
     ],
     "extension": [],
     "generator": ["sgen", "log"],
+    "options": [],
     "g": ["sgen", "log"],
     "d": ["design.json"]
 }
